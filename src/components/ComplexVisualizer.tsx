@@ -13,7 +13,7 @@ const PRESETS = [
   { label: "tan(z)", value: "tan(z)" },
 ];
 
-const GRID_SIZE = 150;
+const GRID_SIZE = 200;
 
 function generateSurface(funcStr: string, range: number) {
   const n = GRID_SIZE;
